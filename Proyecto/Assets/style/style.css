@@ -62,13 +62,13 @@ html::-webkit-scrollbar-thumb{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--main-color); /* Cambia el color según tu paleta */
-    font-size: 2rem; /* Ajusta el tamaño del texto */
+    color: var(--main-color); 
+    font-size: 2rem; 
 }
 
 .logo-img {
-    width: 50px; /* Ajusta el tamaño del logo según sea necesario */
-    margin-right: 10px; /* Espacio entre el logo y la letra J */
+    width: 50px; 
+    margin-right: 10px; 
 }
 
 
@@ -311,7 +311,7 @@ span{
     background: var(--second-bg-color);
 }
 .heading{
-    text-align: center; /* Centra el texto */
+    text-align: center; 
     font-size: 3rem;
     margin-bottom: 2rem;
     margin-top: 40px;
@@ -320,7 +320,7 @@ span{
 .containerSlider {
     max-width: 1000px;
     height: 500px;
-    margin: auto; /* Centra horizontalmente */
+    margin: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -333,7 +333,7 @@ input[type=radio] {
 }
 
 .container {
-    padding: 0 10%; /* Ajusta el relleno lateral */
+    padding: 0 10%; 
     width: 100%;
     max-width: 800px;
     height: 100%;
@@ -352,7 +352,7 @@ input[type=radio] {
 }
 
 .card {
-    padding-right: 0; /* Elimina el relleno derecho */
+    padding-right: 0;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -370,7 +370,6 @@ input[type=radio] {
     object-fit: cover;
 }
 
-/* Ajusta el tamaño del selector */
 #item-1:checked ~ .cards #selector-1,
 #item-2:checked ~ .cards #selector-2,
 #item-3:checked ~ .cards #selector-3,
@@ -452,9 +451,9 @@ input[type=radio] {
 
 
 .skills .container .bar .info img {
-    width: 120px; /* Tamaño deseado */
-    height: 100px; /* Tamaño deseado */
-    object-fit: contain; /* Esto asegura que la imagen mantenga su relación de aspecto */
+    width: 120px; 
+    height: 100px; 
+    object-fit: contain; 
 }
 
 @media screen and(max-width:600px){
